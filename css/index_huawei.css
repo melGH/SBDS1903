@@ -1,4 +1,4 @@
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1200px) {
     @font-face {
 	font-family: 'Gilroy';
 	src: url('../fonts/gilroy-extrabold.otf');
@@ -47,11 +47,11 @@ main {
 
 /* Slideshow container */
 .slideshow-container {
-    height: 600px;
+    height: 400px;
     width: 75%;
     margin-left: 12.5%;
-    margin-top: 20px !important;
-    margin-bottom: 40px !important;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
     position: relative;
     margin: auto;
     object-fit:cover;
@@ -146,7 +146,7 @@ main {
 .popup-description-container {
     z-index: 20;
     position: fixed;
-    height: 440px;
+    height: 340px;
     width: 70%;
     margin:8% 0 0 15%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -169,8 +169,8 @@ main {
 .popup-description-container h1 {
     float: left;
     width: 700px;
-    margin:15px 0 0 15px;
-    font-size: 30pt;
+    margin:-6px 0 0 10px;
+    font-size: 20pt;
     font-family: Gilroy !important;
     font-weight: 800;
     text-transform: uppercase;
@@ -180,9 +180,9 @@ main {
 .popup-description-container p {
     float: left;
     width: 70%;
-    margin:0px 0 0 20px;
+    margin:-15px 0 0 10px;
     font-size: 12pt;
-    line-height: 25px;
+    line-height: 17px;
     font-family: Gilroy !important;
     font-weight: 300;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -194,19 +194,19 @@ main {
 .popup-description-container #ex_high {
     float: right;
     width: 20%;
-    margin:110px 45px 0 0px;
-    font-size: 25pt;
-    line-height: 35px;
+    margin:75px 35px 0 0px;
+    font-size: 15pt;
+    line-height: 25px;
     font-family: Gilroy !important;
     font-weight: 800;
 }
 
 .popup-description-container #ex_high img {
     float: right;
-    margin:20px 70px 0 0;
+    margin:5px 45px 0 0;
     background-color: transparent;
-	width: 80px;
-	height: 40px;
+	width: 40px;
+	height: 20px;
 }
 
 .popup-description-container #ex_high a {
@@ -217,10 +217,10 @@ main {
 
 .popup-description-container .popup-description-close {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
 }
 .popup-description-container .popup-description-close::before, .popup-description-container .popup-description-close::after {
 }
@@ -261,7 +261,7 @@ main {
     height: 90%;
     width: 100%;
     margin-left: 0px;
-	margin-top: 54px !important;
+	margin-top: 20px !important;
     position: relative;
     margin: auto;
     z-index: 20;
@@ -270,37 +270,6 @@ main {
 
 .resources	.popup-highlights-container{
 	margin-top: 100px !important;
-}
-.popup-highlights-container h1 {
-    float: left;
-    width: 700px;
-    margin:10px 0 0 10px;
-    font-size: 30pt;
-    font-family: Gilroy !important;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 60px;
-}
-
-.popup-highlights-container p {
-    float: left;
-    width: 70%;
-    margin:10px 0 0 20px;
-    font-size: 13pt;
-    font-family: Gilroy !important;
-    font-weight: 300;
-    line-height: 20px;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}
-
-.popup-highlights-container .popup-highlights-close {
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    width: 30px;
-    height: 30px;
 }
 
 #highlights-header {
@@ -313,11 +282,11 @@ main {
 }
 
 #highlights-title {
-    margin:30px 0 0 30px;
+    margin:10px 0 0 10px;
     background-color: transparent;
     font-family: Gilroy;
     font-weight: 800;
-    font-size: 35pt;
+    font-size: 25pt;
     position: fixed;
     z-index: 21;
 }
@@ -340,10 +309,10 @@ main {
 
 .highSlides img, .itemSlides img
  {
-    height: 380px;
+    height: 280px;
     width: 65%;
     margin-left: 17.5%;
-    margin-top: 12% !important;
+    margin-top: 8% !important;
     object-fit:cover;
      object-position: center;
 }
@@ -371,7 +340,7 @@ main {
 
 /* Position the "next button" to the right */
 .next {
-    right: 44px;
+    right: 20px;
 }
 
 /* Caption text */
@@ -384,7 +353,7 @@ main {
     text-align: center;
     font-family: Gilroy;
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 /* Number text (1/10 etc) */
@@ -392,7 +361,7 @@ main {
     color: #000000;
     padding: 8px 12px;
     position: absolute;
-    top: 35px;
+    top: 20px;
     right: 7%;
     font-family: Gilroy;
     font-weight: 800;
@@ -466,7 +435,7 @@ main {
 }
 .base-nav li:nth-child(1), .base-nav li:nth-child(1) a {
     float: left;
-    font-size: 27pt;
+    font-size: 25pt;
     font-family: Gilroy !important;
     font-weight: 800;
     text-transform: uppercase;
@@ -477,7 +446,7 @@ main {
 .base-nav li:nth-child(2), .base-nav li:nth-child(3){
     float: left;
     margin-left: 30px;
-    font-size: 25pt;
+    font-size: 20pt;
     font-family: Gilroy !important;
     font-weight: 300;
     line-height: 25px;
@@ -516,11 +485,11 @@ main {
     width: 100%;
     height: 100vh;
     background-color: #ffffff;
-    margin:88px 0 0 0px;
+    margin: 88px 0 0 0px;
     float: left;
     position: fixed;
     z-index: 9;
-		overflow: scroll;
+	overflow: scroll;
 -webkit-overflow-scrolling: touch;
 }
 
@@ -545,7 +514,7 @@ main {
     margin: 20px 0  0 50px;
     width: 30%;
     float: left;
-    font-size: 35pt;
+    font-size: 25pt;
     font-family: Gilroy !important;
     font-weight: 800;
     text-transform: uppercase;
@@ -553,9 +522,9 @@ main {
 
 .featured-header-icons, .resources-header-icons {
     float: right;
-    width: 30%;
+    width: 17%;
     list-style-type: none;
-    margin: 30px 0px 0 0px;
+    margin: 20px 0px 0px 0px;
     padding: 0;
     overflow: hidden;
     height: 100%;
@@ -569,8 +538,8 @@ button {
 #featured-header li, #resources-header li {
     display: inline-block;
     margin: 0 0px 0 0px;
-    height: 65px;
-    width: 65px;
+    height: 45px;
+    width: 45px;
 }
 
 #featured-header li:nth-child(1), #resources-header li:nth-child(1) {
@@ -589,7 +558,7 @@ button {
     width: 100%;
     height: 50px;
     background: #ffffff;
-    margin: 95px 0 0 10px;
+    margin: -20px 0 0 10px;
     float: left;
     z-index: 9;
 
@@ -650,7 +619,7 @@ button {
 #featured-list-container .featured-grid li, #resources-list-container .resources-grid li {
     width: 30%;
     margin: 1.5% 1.5% 1.5% 1.5% ;
-    height: 375px !important;
+    height: 250px !important;
     background-color: #dedede;
     display: inline-block;
 }
@@ -670,25 +639,11 @@ button {
     width: 30%;
     text-align: center;
     color: #ffffff;
-    font-size: 20pt;
+    font-size: 15pt;
     font-family: Gilroy;
     font-weight: 300;
     line-height: 50px;
     z-index: 8;
-}
-
-.featured-grid .featured-grid-number {
-    position: absolute;
-    height: 50px;
-    margin:-50px 0 0 25!important;
-    width: 5%;
-    text-align: center;
-    color: #ffffff;
-    font-size: 12pt;
-    font-family: Gilroy;
-    font-weight: 300;
-    line-height: 50px;
-    z-index: 9;
 }
 
 .resources-grid .resources-grid-title, .resources-grid .resources-grid-type, .resources-grid .resources-grid-year {
@@ -698,7 +653,7 @@ button {
 #featured-list-container .featured-list li, #resources-list-container .resources-list li {
     width: 30%;
     margin: 1.5% 0 0 0;
-    height: 450px;
+    height: 250px;
     background-color: #dedede;
 }
 
@@ -706,14 +661,14 @@ button {
 .featured-list .featured-grid-title, .resources-list .resources-grid-title {
     position: absolute;
     height: 40px;
-    margin: margin: -275px 0px 20px 32%;
+    margin: -250px 0px 0px 32%;
     background-color: transparent;
     color: #000000;
-    width: 90%;
-    font-size: 30pt;
+    width: 65%;
+    font-size: 20pt;
     font-family: Gilroy;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 25px;
 }
 .featured-grid .featured-grid-item-numbers{
 	display: none;
@@ -725,7 +680,7 @@ button {
     background-color: transparent;
     color: #000000;
     /*width: 28.8%;*/
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: Gilroy;
     font-weight: 200;
     line-height: 50px;
@@ -743,9 +698,9 @@ button {
 .featured-list  .featured-grid-description {
 	position: absolute;
 	height: 200px;
-	margin: -210px 0px 100px 32%;
+	margin: -215px 0px 100px 32%;
 	color: #000000;
-	font-size: 14pt;
+	font-size: 12pt;
 	font-family: Gilroy;
 	font-weight: 100;
 	line-height: 20px;
@@ -763,10 +718,10 @@ button {
 
 .resources-list .resources-grid-type {
     position: absolute;
-    margin: -230px 0px 20px 32%;
+    margin: -55px 0px 20px 32%;
     background-color: transparent;
     color: #000000;
-    font-size: 20pt;
+    font-size: 14pt;
     font-family: Gilroy;
     font-weight: 300;
     line-height: 50px;
@@ -774,10 +729,10 @@ button {
 }
 .resources-list .resources-grid-year {
     position: absolute;
-    margin:-200px 0px 20px 32%;
+    margin: -35px 0px 20px 32%;
     background-color: transparent;
     color: #000000;
-    font-size: 20pt;
+    font-size: 14pt;
     font-family: Gilroy;
     font-weight: 300;
     line-height: 50px;
@@ -937,7 +892,7 @@ button {
 .tertiary-container {
     position: relative;
     width: 100%;
-    height: 90%;
+    height: 120%;
     margin: 105px 0 0 0;
     background: #ffffff;
     z-index: 20;
@@ -967,31 +922,31 @@ button {
 
 #item-header {
     height: 150px;
-    width: 70%;
+    width: 100%;
     margin-left: 2%;
     position: fixed;
 }
 
 #item-header h1 {
     font-family: Gilroy;
-    font-size: 30pt;
+    font-size: 16pt;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 20px;
     margin-top: -10px !important;
     margin-left: 0px !important;
 }
 
 #item-header h2 {
     font-family: Gilroy;
-    font-size: 15pt;
+    font-size: 14pt;
     font-weight: 800;
     line-height: 35px;
-    margin-top: -35px;
+    margin-top: -10px;
 }
 
 #item-header h3 {
     font-family: Gilroy;
-    font-size: 15pt;
+    font-size: 14pt;
     font-weight: 300;
     line-height: 35px;
     margin-top: -30px;
@@ -1023,7 +978,7 @@ button {
     height: 20px;
     width:50px;
     position: relative;
-    margin: 0 4px 0 4px;
+    margin: 0px 4px 0 4px;
 }
 
 /* Position the "next button" to the right */
@@ -1067,7 +1022,7 @@ button {
 }
 
 #list-item-links {
-	 position: absolute;
+	position: absolute;
     height: 100px;
     /*width: 5%;*/
     margin-left: 2%;
@@ -1077,7 +1032,7 @@ button {
 
 #list-item-links h1 a{
     font-family: Gilroy;
-    font-size: 15pt;
+    font-size: 12pt;
     font-weight: 300;
     line-height: 35px;
     margin-top: 0px;
@@ -1085,12 +1040,12 @@ button {
 }
 
 #list-item-links h1 img, #item-links h1 img {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
 }
 #list-item-links h2{
     font-family: Gilroy;
-    font-size: 15pt;
+    font-size: 12pt;
     font-weight: 300;
     line-height: 35px;
     margin-top: -30px;
@@ -1103,7 +1058,7 @@ button {
 
 /* FOOTER FOR BOTH FEATURED AND RESOURCES */
 #featured-footer, #resources-footer {
-    height: 240px;
+    height: 130px;
     width: 100%;
     border-top: 2px solid #dedede;
     background: #FFFFFF;
@@ -1120,32 +1075,35 @@ button {
 }
 
 #featured-footer-main h1, #resources-footer-main h1 {
-    font-size: 20pt;
+    font-size: 16pt;
     font-family: Gilroy !important;
     font-weight: 800;
+	margin-bottom: -20px;
 }
 
 #featured-footer-main a, #resources-footer-main a {
 	width: 100%;
 	height: 30px;
-    font-size: 15pt;
+    font-size: 12pt;
     font-family: Gilroy !important;
     font-weight: 300;
     color: #609544;
     z-index: 30;
+	
 }
 
 #featured-footer-main p, #resources-footer-main p {
-    font-size: 15pt;
+    font-size: 12pt;
     font-family: Gilroy !important;
     font-weight: 300;
-    line-height: 15px;
+    line-height: 10px;
+	margin-top: -5px;
 }
 
 #featured-footer-secondary, #resources-footer-secondary {
     height: 50%;
     width: 40%;
-    margin-top: 5%;
+    margin-top: 3%;
     float: right;
 }
 
