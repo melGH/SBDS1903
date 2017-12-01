@@ -1,4 +1,4 @@
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)  {
+@media screen and (max-width: 1336px) {
     @font-face {
 	font-family: 'Gilroy';
 	src: url('../fonts/gilroy-extrabold.otf');
@@ -41,17 +41,23 @@ main {
     overflow: hidden;
     z-index: 0;
 }
-
+#csa {
+    margin-top: 10px;
+    font-size: 8pt;
+    font-family: Gilroy !important;
+    opacity: 1;
+}
+    
 /* Image Slider */
 .homeSlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
-    height: 600px;
-    width: 75%;
-    margin-left: 12.5%;
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
+    height: 550px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px !important;
+    margin-bottom: 60px !important;
     position: relative;
     margin: auto;
     object-fit:cover;
@@ -147,8 +153,8 @@ main {
     z-index: 20;
     position: fixed;
     height: 440px;
-    width: 70%;
-    margin:8% 0 0 15%;
+    width: 80%;
+    margin:10% 0 0 10%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: #FFFFFF;
     -webkit-transform: translateX(1800px);
@@ -194,7 +200,7 @@ main {
 .popup-description-container #ex_high {
     float: right;
     width: 20%;
-    margin:110px 45px 0 0px;
+    margin:80px 45px 0 0px;
     font-size: 25pt;
     line-height: 35px;
     font-family: Gilroy !important;
@@ -203,7 +209,7 @@ main {
 
 .popup-description-container #ex_high img {
     float: right;
-    margin:20px 70px 0 0;
+    margin:20px 40px 0 0;
     background-color: transparent;
 	width: 80px;
 	height: 40px;
@@ -297,8 +303,8 @@ main {
 
 .popup-highlights-container .popup-highlights-close {
     position: absolute;
-    top: 40px;
-    right: 40px;
+    top: 20px;
+    right: 20px;
     width: 30px;
     height: 30px;
 }
@@ -313,7 +319,7 @@ main {
 }
 
 #highlights-title {
-    margin:30px 0 0 30px;
+    margin:10px 0 0 20px;
     background-color: transparent;
     font-family: Gilroy;
     font-weight: 800;
@@ -392,8 +398,8 @@ main {
     color: #000000;
     padding: 8px 12px;
     position: absolute;
-    top: 35px;
-    right: 7%;
+    top: 15px;
+    right: 60px;
     font-family: Gilroy;
     font-weight: 800;
     font-size: 15pt;
@@ -451,7 +457,7 @@ main {
     width: 100%;
     border-top: 2px solid #dedede;
 	border-bottom: 2px solid #dedede;
-	margin-top: 0px;
+	margin-top: -30px;
     background: #FFFFFF;
     position: fixed;
     z-index: 10;
@@ -533,7 +539,7 @@ main {
     width: 100%;
     height: 90px;
     background-color: #ffffff;
-    margin-top: 12px;
+    margin-top: -25px;
     margin-left: 0px;
     float: left;
     position: fixed;
@@ -587,7 +593,7 @@ button {
     width: 100%;
     height: 60px;
     background: #ffffff;
-    margin: 95px 0 0 10px;
+    margin: 65px 0 0 10px;
     float: left;
     position: fixed;
     z-index: 9;
