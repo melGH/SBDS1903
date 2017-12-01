@@ -41,16 +41,24 @@ main {
     z-index: 0;
 }
 
+#csa {
+    margin-top: 5px;
+    font-size: 10pt;
+    font-family: Gilroy !important;
+    opacity: 1;
+}
+
+
 /* Image Slider */
 .homeSlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
-    height: 600px;
-    width: 75%;
+    height: 550px;
+    width: 70%;
     margin-left: 12.5%;
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 40px !important;
     position: relative;
     margin: auto;
     object-fit:cover;
@@ -145,9 +153,9 @@ main {
 .popup-description-container {
     z-index: 20;
     position: fixed;
-    height: 440px;
-    width: 70%;
-    margin:8% 0 0 15%;
+    height: 400px;
+    width: 65%;
+    margin:10% 0 0 17.5%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: #FFFFFF;
     -webkit-transform: translateX(1800px);
@@ -193,7 +201,7 @@ main {
 .popup-description-container #ex_high {
     float: right;
     width: 20%;
-    margin:110px 45px 0 0px;
+    margin:70px 45px 0 0px;
     font-size: 25pt;
     line-height: 35px;
     font-family: Gilroy !important;
@@ -413,6 +421,7 @@ main {
     position: fixed;
 	left: 0;
 	top: 0;
+    margin-top: -20px;
 	margin: 0px;
     height:730px;
     width: 100%;
@@ -432,9 +441,9 @@ main {
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     transition-property: transform;
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
 
 .primary.is-visible {
@@ -449,8 +458,8 @@ main {
     height: 100px;
     width: 100%;
     border-top: 2px solid #dedede;
-	border-bottom: 2px solid #dedede;
-	margin-top: 0px;
+    border-bottom: 2px solid #dedede;
+	margin-top: -25px;
     background: #FFFFFF;
     position: fixed;
     z-index: 10;
@@ -532,7 +541,7 @@ main {
     width: 100%;
     height: 90px;
     background-color: #ffffff;
-    margin-top: 12px;
+    margin-top: -13px;
     margin-left: 0px;
     float: left;
     position: fixed;
@@ -586,7 +595,7 @@ button {
     width: 100%;
     height: 60px;
     background: #ffffff;
-    margin: 95px 0 0 10px;
+    margin: 70px 0 0 10px;
     float: left;
     position: fixed;
     z-index: 9;
