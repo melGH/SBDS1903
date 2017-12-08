@@ -41,7 +41,14 @@ main {
     overflow: hidden;
     z-index: 0;
 }
-
+	
+#csa {
+    margin-top: 10px;
+    font-size: 7pt;
+    font-family: Gilroy !important;
+    opacity: 1;
+}
+	
 /* Image Slider */
 .homeSlides {display:none}
 
