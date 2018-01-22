@@ -1106,8 +1106,8 @@ body.safari .featured-list .featured-grid-item-numbers {
 #featured-footer-main, #resources-footer-main {
     height: 100%;
     width: 50%;
-    float: right;
-    margin-right: 4%;
+    float: left;
+    margin-left: 4%;
 }
 
 #featured-footer-main h1, #resources-footer-main h1 {
@@ -1137,15 +1137,15 @@ body.safari .featured-list .featured-grid-item-numbers {
     height: 50%;
     width: 40%;
     margin-top: 5%;
-    float: left;
+    float: right;
 }
 
 #featured-footer h3, #resources-footer h3 {
     font-size: 15pt;
     font-family: Gilroy !important;
     font-weight: 300;
-    float: left;
-    margin-left: 25px;
+    float: right;
+    margin-right: 25px;
 }
 
 #featured-footer h3 a, #resources-footer h3 a {
@@ -1153,11 +1153,11 @@ body.safari .featured-list .featured-grid-item-numbers {
 }
 
 #featured-footer img, #resources-footer img {
-    float: left;
+    float: right;
     margin-top: 0;
     height: 70px;
     width:70px;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .main {
