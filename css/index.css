@@ -1163,7 +1163,8 @@ body.safari .featured-list .featured-grid-item-numbers {
     height: 70px;
     width:70px;
 float: left;
-    margin-right: 10px;
+margin-left: 10px;
+margin-right: 10px;
 	
 }
 
