@@ -1128,6 +1128,7 @@ button {
     height: 70px;
     width:70px;
     margin-right: 50px;
+	float: left;
 }
 	
 .main {
