@@ -1111,14 +1111,14 @@ button {
     height: 50%;
     width: 40%;
     margin-top: 3%;
-    float: right;
+    float: left;
 }
 
 #featured-footer h3, #resources-footer h3 {
     font-size: 15pt;
     font-family: Gilroy !important;
     font-weight: 300;
-    float: right;
+    float: left;
     margin-right: 25px;
 }
 
