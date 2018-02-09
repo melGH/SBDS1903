@@ -1127,7 +1127,7 @@ button {
 }
 
 #featured-footer img, #resources-footer img {
-    float: right;
+    float: left;
     margin-top: 0;
     height: 70px;
     width:70px;
