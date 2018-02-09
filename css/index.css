@@ -1099,7 +1099,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     border-top: 2px solid #dedede;
     background: #FFFFFF;
     position: relative;
-    margin-top: 0px;
+    margin-top: 2px;
 	overflow: hidden;
 }
 
@@ -1137,14 +1137,14 @@ body.safari .featured-list .featured-grid-item-numbers {
     height: 50%;
     width: 40%;
     margin-top: 5%;
-    float: right;
+    float: left;
 }
 
 #featured-footer h3, #resources-footer h3 {
     font-size: 15pt;
     font-family: Gilroy !important;
     font-weight: 300;
-    float: right;
+    float: left;
     margin-right: 25px;
 }
 
