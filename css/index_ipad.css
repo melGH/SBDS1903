@@ -1089,7 +1089,6 @@ body.safari .featured-list .featured-grid-item-numbers {
     color: #609544;
 }
 /* TERTIARY ITEM LIST POPUPS */
-
 /* FOOTER FOR BOTH FEATURED AND RESOURCES */
 #featured-footer, #resources-footer {
     height: 210px;
@@ -1145,7 +1144,6 @@ body.safari .featured-list .featured-grid-item-numbers {
     font-size: 15pt;
     font-family: Gilroy !important;
     font-weight: 300;
-	float: right;
 }
 
 #featured-footer h3 a, #resources-footer h3 a {
@@ -1165,7 +1163,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     margin-top: 0;
     height: 70px;
     width:70px;
-	float: left;
+float: left;
     margin-right: 5px;
 	
 }
