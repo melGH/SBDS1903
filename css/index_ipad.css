@@ -1128,7 +1128,6 @@ body.safari .featured-list .featured-grid-item-numbers {
     font-family: Gilroy !important;
     font-weight: 300;
     line-height: 15px;
-	float: right;
 }
 
 #featured-footer-secondary, #resources-footer-secondary {
@@ -1161,7 +1160,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     height: 70px;
     width:70px;
 float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 	
 }
 
