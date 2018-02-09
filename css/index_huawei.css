@@ -1086,7 +1086,6 @@ button {
     font-size: 20pt;
     font-family: Gilroy !important;
     font-weight: 800;
-    margin-left: 80px;
 }
 
 #featured-footer-main a, #resources-footer-main a {
@@ -1105,7 +1104,6 @@ button {
     font-weight: 300;
     line-height: 15px;
 	float: right;
-	margin-left: 80px;
 }
 
 #featured-footer-secondary, #resources-footer-secondary {
@@ -1131,7 +1129,6 @@ button {
     width:70px;
 	float: left;
     margin-right: 5px;
-	
 }
 	
 #featured-footer-secondary img, #resources-footer-secondary img {
@@ -1139,9 +1136,10 @@ button {
     height: 70px;
     width:70px;
 float: left;
-    margin-right: 5px;
+    margin-right: 10px;
 	
 }
+
 	
 .main {
     height: 100%;
