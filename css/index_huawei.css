@@ -1086,7 +1086,7 @@ button {
     font-size: 20pt;
     font-family: Gilroy !important;
     font-weight: 800;
-    margin-right: 25px;
+    margin-left: 80px;
 }
 
 #featured-footer-main a, #resources-footer-main a {
@@ -1128,8 +1128,9 @@ button {
     margin-top: 0;
     height: 70px;
     width:70px;
-    margin-right: 50px;
 	float: left;
+    margin-right: 50px;
+	
 }
 	
 .main {
