@@ -1114,7 +1114,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     font-size: 20pt;
     font-family: Gilroy !important;
     font-weight: 800;
-    margin-right: 25px;
+    margin-left: 80px;
 }
 
 #featured-footer-main a, #resources-footer-main a {
@@ -1132,6 +1132,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     font-family: Gilroy !important;
     font-weight: 300;
     line-height: 15px;
+	float: right;
 }
 
 #featured-footer-secondary, #resources-footer-secondary {
@@ -1145,6 +1146,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     font-size: 15pt;
     font-family: Gilroy !important;
     font-weight: 300;
+	float: right;
 }
 
 #featured-footer h3 a, #resources-footer h3 a {
@@ -1155,7 +1157,18 @@ body.safari .featured-list .featured-grid-item-numbers {
     margin-top: 0;
     height: 70px;
     width:70px;
+	float: left;
     margin-right: 50px;
+	
+}
+	
+#featured-footer-secondary img, #resources-footer-secondary img {
+    margin-top: 0;
+    height: 70px;
+    width:70px;
+	float: left;
+    margin-right: 50px;
+	
 }
 
 .main {
