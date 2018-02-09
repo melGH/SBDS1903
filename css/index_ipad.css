@@ -1131,6 +1131,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     font-weight: 300;
     line-height: 15px;
 	float: right;
+	margin-left: 80px;
 }
 
 #featured-footer-secondary, #resources-footer-secondary {
@@ -1156,7 +1157,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     height: 70px;
     width:70px;
 	float: left;
-    margin-right: 50px;
+    margin-right: 5px;
 	
 }
 	
@@ -1165,7 +1166,7 @@ body.safari .featured-list .featured-grid-item-numbers {
     height: 70px;
     width:70px;
 	float: left;
-    margin-right: 50px;
+    margin-right: 5px;
 	
 }
 
