@@ -1104,6 +1104,7 @@ button {
     font-family: Gilroy !important;
     font-weight: 300;
     line-height: 15px;
+	float: right;
 }
 
 #featured-footer-secondary, #resources-footer-secondary {
@@ -1125,6 +1126,15 @@ button {
 }
 
 #featured-footer img, #resources-footer img {
+    margin-top: 0;
+    height: 70px;
+    width:70px;
+	float: left;
+    margin-right: 50px;
+	
+}
+	
+#featured-footer-secondary img, #resources-footer-secondary img {
     margin-top: 0;
     height: 70px;
     width:70px;
